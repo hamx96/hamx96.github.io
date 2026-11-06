@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:">
+<meta name="theme-color" content="#FAFBF9">
+<title>김성함 · 박선옥 결혼식 사회자 대본</title>
+<style>
+:root{--paper:#FAFBF9;--ink:#17203A;--cheong:#27458F;--hong:#B8123A;--hair:#D6DBE6;--tint:#EEF1F8;--band:#B8123A;--bar:#17203A;--bar-ink:#FAFBF9;--scale:1;color-scheme:light;
+--serif:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Apple SD Gothic Neo","Batang",serif;--sans:"Pretendard","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR","Malgun Gothic",sans-serif}
+[data-theme=dark]{--paper:#0F1A3A;--ink:#F3F4EF;--cheong:#A9BDF5;--hong:#FF8FA1;--hair:#2F3E6B;--tint:#17244B;--band:#C9183F;--bar:#1B2A57;--bar-ink:#F3F4EF;color-scheme:dark}
+*{box-sizing:border-box}
+html{font-size:calc(100% * var(--scale));scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6;word-break:keep-all;overflow-wrap:anywhere;padding-bottom:calc(84px + env(safe-area-inset-bottom))}
+a{color:inherit}
+.ic{width:1.25em;height:1.25em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+:focus-visible{outline:3px solid var(--hong);outline-offset:2px}
+h2:focus{outline:none}
+.skip{position:absolute;left:-999px;top:0;background:var(--bar);color:var(--bar-ink);padding:.6rem 1rem;z-index:30}
+.skip:focus{left:0}
+.layout{max-width:50rem;margin:0 auto;padding:0 1rem}
+main{min-width:0}
+/* 첫 화면 */
+header{padding:2.6rem 0 1.4rem}
+h1{margin:0;font-family:var(--serif);font-weight:800;line-height:1.15}
+.names{display:block;font-size:clamp(2.5rem,11vw,4.2rem);letter-spacing:-.02em}
+.names .c{color:var(--cheong)}.names .h{color:var(--hong)}.names .dot{color:var(--hair);font-weight:400}
+.sub{display:block;margin-top:.55rem;font-family:var(--sans);font-size:1.25rem;font-weight:600}
+.front h2{font-size:1.25rem;margin:.4rem 0 .6rem}
+.front h3{font-size:1.1rem;margin:2rem 0 .5rem}
+.lead{margin:.7rem 0;font-size:1.05rem;max-width:42em}
+.lead strong{color:var(--hong)}
+.tablewrap{overflow-x:auto;margin:1rem 0}
+table{border-collapse:collapse;width:100%;font-size:1rem}
+th,td{text-align:left;padding:.55rem .7rem .55rem 0;border-bottom:1px solid var(--hair);vertical-align:baseline}
+th{font-weight:700;font-size:.92rem}
+.legend td:first-child{white-space:nowrap}
+.lg-say{font-family:var(--serif)}
+.lg-strong strong{font-family:var(--serif);color:var(--hong)}
+.lg-shout strong{display:inline-block;background:var(--band);color:#fff;padding:.05rem .55rem;font-weight:900}
+td em{color:var(--cheong);font-style:normal;font-weight:500}
+.tasks{list-style:none;padding:0;margin:.4rem 0}
+.tasks label{display:flex;gap:.7rem;align-items:flex-start;padding:.45rem 0;cursor:pointer;min-height:44px}
+.tasks input{width:1.35rem;height:1.35rem;margin:.15rem 0 0;accent-color:var(--hong);flex:none}
+.tasks input:checked+span{color:var(--cheong);text-decoration:line-through}
+/* 청실홍실 */
+.timeline{position:relative;padding-left:60px;margin-top:2rem}
+.thread{position:absolute;left:8px;top:0;bottom:0;width:28px;background:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%2728%27%20height%3D%2756%27%20fill%3D%27none%27%20stroke-width%3D%272.4%27%20stroke-opacity%3D%270.45%27%3E%3Cpath%20d%3D%27M14%200C24%2014%2024%2014%2014%2028C4%2042%204%2042%2014%2056%27%20stroke%3D%27%238E9BBD%27/%3E%3Cpath%20d%3D%27M14%200C4%2014%204%2014%2014%2028C24%2042%2024%2042%2014%2056%27%20stroke%3D%27%238E9BBD%27/%3E%3C/svg%3E") repeat-y}
+.thread.fill{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%2728%27%20height%3D%2756%27%20fill%3D%27none%27%20stroke-width%3D%272.4%27%20stroke-opacity%3D%271%27%3E%3Cpath%20d%3D%27M14%200C24%2014%2024%2014%2014%2028C4%2042%204%2042%2014%2056%27%20stroke%3D%27%233E62C8%27/%3E%3Cpath%20d%3D%27M14%200C4%2014%204%2014%2014%2028C24%2042%2024%2042%2014%2056%27%20stroke%3D%27%23D8264F%27/%3E%3C/svg%3E");bottom:auto;height:0}
+.step{position:relative;padding:2.4rem 0 .6rem;scroll-margin-top:0}
+.marker{position:absolute;left:-60px;top:2.2rem;margin-left:0;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--paper);border:2px solid var(--hair);color:var(--cheong);z-index:2;transition:background .2s,color .2s,border-color .2s}
+.marker .ic{width:30px;height:30px;stroke-width:1.9}
+.step.past .marker{border-color:var(--cheong)}
+.step.now .marker{background:var(--hong);border-color:var(--hong);color:#fff}
+[data-theme=dark] .step.now .marker{background:var(--band);border-color:var(--band)}
+.step h2{margin:0 0 .8rem;min-height:44px;display:flex;align-items:center;font-size:1.4rem;font-weight:800;line-height:1.3;scroll-margin-top:0}
+.say{font-family:var(--serif);font-size:1.45rem;line-height:1.8;margin:.7rem 0;max-width:36em;font-weight:500}
+.say strong{color:var(--hong);font-weight:800}
+.cue{list-style:none;padding:0;margin:.65rem 0;display:flex;flex-wrap:wrap;gap:.2rem 1.1rem;color:var(--cheong);font-size:.98rem;font-weight:500;line-height:1.45}
+.cue li{display:flex;gap:.4rem;align-items:flex-start}
+.cue .ic{margin-top:.08em}
+.shout{position:relative;z-index:1;margin:1.3rem -1rem 1.3rem calc(-60px - 1rem);padding:.85rem 1rem .85rem calc(60px + 1rem);background:var(--band);color:#fff;font-size:clamp(1.75rem,7.2vw,2.5rem);font-weight:900;line-height:1.25;letter-spacing:-.01em}
+.shout .ic{position:absolute;left:calc(1rem + 7px);top:50%;margin-top:-15px;width:30px;height:30px;stroke-width:2}
+.script{margin:1rem 0;background:var(--tint);border-radius:6px;font-size:1rem}
+.script summary{display:flex;gap:.5rem;align-items:center;min-height:48px;padding:.5rem .9rem;color:var(--cheong);font-weight:700;cursor:pointer}
+.script>div{padding:0 .9rem .5rem}
+.script p{margin:0 0 .85rem;line-height:1.7}
+/* 하단 막대 */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--bar);color:var(--bar-ink);display:grid;grid-template-columns:72px 1fr 72px;padding-bottom:env(safe-area-inset-bottom)}
+.bar button{appearance:none;border:0;background:none;color:inherit;font:inherit;font-size:16px;min-height:60px;cursor:pointer}
+.bar button:focus-visible{outline-color:#FF8FA1;outline-offset:-4px}
+.bar .nav{font-weight:800;display:grid;place-items:center}
+.bar .nav svg{width:26px;height:26px}
+.bar .nav:disabled{opacity:.35;cursor:default}
+#open{font-weight:700;padding:0 .4rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* 순서 목록과 설정 */
+.scrim{position:fixed;inset:0;background:rgba(10,16,40,.55);z-index:11}
+#panel{position:fixed;left:0;right:0;bottom:0;z-index:12;max-height:82vh;overflow:auto;background:var(--paper);border-radius:14px 14px 0 0;padding:1rem 1rem calc(1rem + env(safe-area-inset-bottom));font-size:16px}
+#panel[hidden],.scrim[hidden]{display:none}
+#panel h2{font-size:17px;margin:.2rem 0 .5rem}
+.steplist{list-style:none;margin:0 0 1rem;padding:0}
+.steplist a{display:flex;gap:.65rem;align-items:center;min-height:46px;padding:.2rem .5rem;text-decoration:none;border-radius:6px;font-size:16px}
+.steplist a .ic{width:24px;height:24px;color:var(--cheong)}
+.steplist a[aria-current=true]{background:var(--band);color:#fff;font-weight:700}
+.steplist a[aria-current=true] .ic{color:#fff}
+.tools{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
+.tools button{appearance:none;font:inherit;font-size:15px;font-weight:600;min-height:46px;background:var(--tint);color:var(--ink);border:1px solid var(--hair);border-radius:6px;cursor:pointer;display:flex;gap:.4rem;align-items:center;justify-content:center;padding:.3rem .5rem}
+.tools button[aria-pressed=true]{background:var(--cheong);color:var(--paper);border-color:var(--cheong)}
+.tools button[hidden]{display:none}
+#note{min-height:1.2em;margin:.5rem 0 0;font-size:14px;color:var(--cheong)}
+@media (min-width:1080px){
+ .layout{max-width:76rem;display:grid;grid-template-columns:17rem minmax(0,48rem);gap:3.5rem;justify-content:center}
+ #panel,#panel[hidden]{display:block;position:sticky;top:0;align-self:start;max-height:100vh;border-radius:0;padding:1.2rem .3rem 1rem;background:none}
+ .scrim{display:none}
+ .bar{display:none}
+ body{padding-bottom:3rem}
+ .steplist{margin-bottom:.6rem}
+ .steplist a{min-height:38px}
+ #panel h2{margin-top:.1rem}
+ .close-panel{display:none}
+ .shout{margin-right:0}
+}
+.close-panel{appearance:none;width:100%;font:inherit;font-size:15px;min-height:46px;margin-top:.5rem;background:none;color:var(--ink);border:1px solid var(--hair);border-radius:6px;cursor:pointer}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media print{
+ :root,[data-theme=dark]{--paper:#fff;--ink:#000;--cheong:#333;--hong:#000;--hair:#999;--tint:#fff;--band:#fff;color-scheme:light}
+ html{font-size:100%}
+ body{padding:0;font-size:11.5pt;background:#fff}
+ .bar,#panel,.scrim,.skip,.thread{display:none!important}
+ .layout{display:block;max-width:none;padding:0}
+ header{padding:0 0 .5rem}
+ .names{font-size:24pt}.names .c,.names .h{color:#000}
+ .timeline{padding-left:0;margin:0}
+ .marker{display:none}
+ .step{padding-top:1.1rem}
+ .step h2{min-height:0;font-size:14pt;border-bottom:1.5pt solid #000;padding-bottom:2pt;break-after:avoid}
+ .say{font-size:13pt;line-height:1.6;margin:.35rem 0;max-width:none}
+ .say strong{text-decoration:underline}
+ .cue{font-size:9.5pt;margin:.3rem 0;font-style:italic;break-before:avoid}
+ .shout{margin:.5rem 0;padding:.3rem .6rem;background:#fff;color:#000;border:2.5pt solid #000;font-size:18pt;break-inside:avoid}
+ .shout .ic{display:none}
+ .lg-shout strong{background:#fff;color:#000;border:1.5pt solid #000}
+ .script{border:1pt solid #999;font-size:10pt;break-inside:auto}
+ .script summary{min-height:0;color:#000}
+ .tasks label{min-height:0;padding:.15rem 0}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-phone" viewBox="0 0 32 32"><rect x="11" y="5" width="10" height="22" rx="2"/><path d="M14.5 23.5h3M7 11c-2 3-2 7 0 10M25 11c2 3 2 7 0 10"/></symbol>
+<symbol id="i-mic" viewBox="0 0 32 32"><rect x="12" y="4" width="8" height="15" rx="4"/><path d="M7 15a9 9 0 0 0 18 0M16 24v4M11 28h10"/></symbol>
+<symbol id="i-candle" viewBox="0 0 32 32"><path d="M16 3c3 4 4 6 0 10c-4-4-3-6 0-10z"/><rect x="12" y="15" width="8" height="12" rx="1"/><path d="M8 28h16"/></symbol>
+<symbol id="i-groom" viewBox="0 0 32 32"><circle cx="16" cy="8" r="4.5"/><path d="M7 28c0-8 4-12 9-12s9 4 9 12"/><path d="M16 20l-4-2.2v4.4zM16 20l4-2.2v4.4z" fill="currentColor"/></symbol>
+<symbol id="i-bride" viewBox="0 0 32 32"><circle cx="16" cy="9" r="4"/><path d="M11 7c1-4 9-4 10 0M10.5 8C9 15 8 18 5 22M21.5 8C23 15 24 18 27 22M13 14l-4 14h14l-4-14"/></symbol>
+<symbol id="i-bow" viewBox="0 0 32 32"><circle cx="9" cy="10" r="3"/><circle cx="23" cy="10" r="3"/><path d="M5 27l2-10l7 3M27 27l-2-10l-7 3M3 28h26"/></symbol>
+<symbol id="i-rings" viewBox="0 0 32 32"><circle cx="12" cy="19" r="7.5"/><circle cx="20" cy="19" r="7.5"/><path d="M12 11.500l-2.5-3l2.5-3l2.5 3z" fill="currentColor"/></symbol>
+<symbol id="i-scroll" viewBox="0 0 32 32"><path d="M9 22V8c0-2 1-3 3-3h11c2 0 3 1 3 3v2h-5M21 10V8c0-2 1-3 3-3M5 22h12v2c0 2 1 3 3 3H8c-2 0-3-1-3-3zM21 10v14c0 2-1 3-3 3M13 11h4M13 15h4"/></symbol>
+<symbol id="i-talk" viewBox="0 0 32 32"><path d="M7 6h18a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H14l-6 6v-6H7a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zM10 11.500h12M10 15.500h8"/></symbol>
+<symbol id="i-talkh" viewBox="0 0 32 32"><path d="M7 6h18a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H14l-6 6v-6H7a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/><path d="M16 18c-4-3-5.5-5-4-6.800c1.300-1.300 3-.8 4 1c1-1.8 2.700-2.300 4-1c1.5 1.8 0 3.8-4 6.800z" fill="currentColor" stroke-width="1"/></symbol>
+<symbol id="i-song" viewBox="0 0 32 32"><path d="M12 23V8l13-3v15"/><circle cx="9" cy="23" r="3"/><circle cx="22" cy="20" r="3"/></symbol>
+<symbol id="i-deepbow" viewBox="0 0 32 32"><circle cx="8" cy="15" r="3"/><path d="M5 28l1-7l10 1M3 28h26"/><circle cx="24" cy="7" r="3"/><path d="M24 10v11M20 14h8M24 21l-3 7M24 21l3 7"/></symbol>
+<symbol id="i-guests" viewBox="0 0 32 32"><circle cx="16" cy="11" r="4"/><path d="M8 27c0-6 3.5-9 8-9s8 3 8 9"/><circle cx="6.5" cy="14" r="2.8"/><path d="M2 25c0-3.5 1.8-5.5 4.5-5.5"/><circle cx="25.5" cy="14" r="2.8"/><path d="M30 25c0-3.5-1.8-5.5-4.5-5.5"/></symbol>
+<symbol id="i-march" viewBox="0 0 32 32"><circle cx="11" cy="6.5" r="3"/><circle cx="21" cy="6.5" r="3"/><path d="M7 22c0-7 1.5-10 4-10s4 3 4 10M17 22c0-7 1.5-10 4-10s4 3 4 10M4 27h24M24 24l4 3l-4 3"/></symbol>
+<symbol id="i-dine" viewBox="0 0 32 32"><path d="M11 4v24M7 4v7c0 3 8 3 8 0V4M22 28V4c3 3 4 8 4 12h-4"/></symbol>
+<symbol id="i-mega" viewBox="0 0 32 32"><path d="M5 13v6h4l15 6V7L9 13zM12 20.500L14 27h4l-1.5-5M27 13c1.5 2 1.5 4 0 6"/></symbol>
+<symbol id="i-clap" viewBox="0 0 32 32"><path d="M12 27c-5-1-7-5-5-9l5-9c1-1.8 3.5-.5 2.700 1.300l-2 4 6-9c1.100-1.700 3.5-.3 2.600 1.500l-5 8.200 5.300-7c1.200-1.5 3.400 0 2.400 1.700l-6.5 10.300 3.5-3.500c1.400-1.200 3 .5 2 2l-4.5 6c-2 2.5-4 3.200-6.5 2.500zM26 3l1-1.500M29.5 7l1.5-.8"/></symbol>
+<symbol id="i-check" viewBox="0 0 32 32"><circle cx="16" cy="16" r="12"/><path d="M10.5 16.500l4 4l7-8"/></symbol>
+<symbol id="i-wait" viewBox="0 0 32 32"><path d="M9 4h14M9 28h14M10 4v4c0 4 12 12 12 16v4M22 4v4c0 4-12 12-12 16v4"/></symbol>
+<symbol id="i-clock" viewBox="0 0 32 32"><circle cx="16" cy="16" r="12"/><path d="M16 9v7l5 3"/></symbol>
+<symbol id="i-reply" viewBox="0 0 32 32"><path d="M6 15c0-6 4.5-9 10-9s10 3 10 9s-4.5 9-10 9c-1.5 0-3-.2-4.300-.7L6 26l1.5-5C6.5 19.5 6 17.300 6 15z"/></symbol>
+<symbol id="i-face" viewBox="0 0 32 32"><path d="M5 16h20M18 9l7 7l-7 7"/></symbol>
+<symbol id="i-pause" viewBox="0 0 32 32"><path d="M12 8v16M20 8v16"/></symbol>
+<symbol id="i-eye" viewBox="0 0 32 32"><path d="M3 16c5-8 21-8 26 0c-5 8-21 8-26 0z"/><circle cx="16" cy="16" r="3.5"/></symbol>
+<symbol id="i-dot" viewBox="0 0 32 32"><circle cx="16" cy="16" r="3.5" fill="currentColor"/></symbol>
+<symbol id="i-prev" viewBox="0 0 32 32"><path d="M20 7l-9 9l9 9"/></symbol>
+<symbol id="i-next" viewBox="0 0 32 32"><path d="M12 7l9 9l-9 9"/></symbol>
+<symbol id="i-moon" viewBox="0 0 32 32"><path d="M26 19A11 11 0 0 1 13 6a11 11 0 1 0 13 13z"/></symbol>
+<symbol id="i-print" viewBox="0 0 32 32"><path d="M9 11V4h14v7M9 23H6a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3M9 18h14v10H9z"/></symbol>
+<symbol id="i-sun" viewBox="0 0 32 32"><circle cx="16" cy="16" r="5"/><path d="M16 3v4M16 25v4M3 16h4M25 16h4M6.8 6.800l2.8 2.800M22.400 22.400l2.8 2.800M6.8 25.200l2.8-2.800M22.400 9.600l2.8-2.8"/></symbol>
+</defs></svg>
+<a class="skip" href="#timeline">대본으로 바로 가기</a>
+<div class="layout">
+<div class="scrim" id="scrim" hidden></div>
+<aside id="panel" aria-label="순서 목록과 화면 설정" hidden>
+<h2>순서</h2>
+<ol class="steplist" id="steplist"><li><a href="#step-1" data-i="0"><svg class="ic " aria-hidden="true"><use href="#i-phone"/></svg><span>1. 식전 안내</span></a></li><li><a href="#step-2" data-i="1"><svg class="ic " aria-hidden="true"><use href="#i-mic"/></svg><span>2. 사회자 소개 및 개식사</span></a></li><li><a href="#step-3" data-i="2"><svg class="ic " aria-hidden="true"><use href="#i-candle"/></svg><span>3. 화촉점화</span></a></li><li><a href="#step-4" data-i="3"><svg class="ic " aria-hidden="true"><use href="#i-groom"/></svg><span>4. 신랑 입장</span></a></li><li><a href="#step-5" data-i="4"><svg class="ic " aria-hidden="true"><use href="#i-bride"/></svg><span>5. 신부 입장</span></a></li><li><a href="#step-6" data-i="5"><svg class="ic " aria-hidden="true"><use href="#i-bow"/></svg><span>6. 신랑·신부 맞절</span></a></li><li><a href="#step-7" data-i="6"><svg class="ic " aria-hidden="true"><use href="#i-rings"/></svg><span>7. 혼인서약</span></a></li><li><a href="#step-8" data-i="7"><svg class="ic " aria-hidden="true"><use href="#i-scroll"/></svg><span>8. 성혼선언</span></a></li><li><a href="#step-9" data-i="8"><svg class="ic " aria-hidden="true"><use href="#i-talk"/></svg><span>9. 신부 아버님 덕담</span></a></li><li><a href="#step-10" data-i="9"><svg class="ic " aria-hidden="true"><use href="#i-talkh"/></svg><span>10. 신랑 어머님 덕담</span></a></li><li><a href="#step-11" data-i="10"><svg class="ic " aria-hidden="true"><use href="#i-song"/></svg><span>11. 축가</span></a></li><li><a href="#step-12" data-i="11"><svg class="ic " aria-hidden="true"><use href="#i-deepbow"/></svg><span>12. 양가 부모님께 인사</span></a></li><li><a href="#step-13" data-i="12"><svg class="ic " aria-hidden="true"><use href="#i-guests"/></svg><span>13. 하객 여러분께 인사</span></a></li><li><a href="#step-14" data-i="13"><svg class="ic " aria-hidden="true"><use href="#i-march"/></svg><span>14. 신랑·신부 행진</span></a></li><li><a href="#step-15" data-i="14"><svg class="ic " aria-hidden="true"><use href="#i-dine"/></svg><span>15. 폐식사 및 피로연 안내</span></a></li></ol>
+<h2>화면</h2>
+<div class="tools">
+<button id="smaller" type="button">글자 작게</button>
+<button id="bigger" type="button">글자 크게</button>
+<button id="theme" type="button" aria-pressed="false"><svg class="ic" aria-hidden="true"><use href="#i-moon"/></svg><span>어두운 화면</span></button>
+<button id="wake" type="button" aria-pressed="false"><svg class="ic" aria-hidden="true"><use href="#i-sun"/></svg><span>화면 켜 두기</span></button>
+<button id="print" type="button"><svg class="ic" aria-hidden="true"><use href="#i-print"/></svg><span>인쇄</span></button>
+</div>
+<p id="note" role="status"></p>
+<button class="close-panel" id="close" type="button">닫기</button>
+</aside>
+<main>
+<header><h1><span class="names"><span class="c">김성함</span> <span class="dot">·</span> <span class="h">박선옥</span></span> <span class="sub">결혼식 사회자 대본</span></h1></header>
+<section class="front"><h2>진행 안내</h2>
+<p class="lead">예식은 <strong>2026년 11월 8일 일요일 오후 2시</strong>, 천년컨벤션웨딩홀 10층 그리다홀에서 시작합니다. 사회자는 <strong>오후 1시 55분</strong>부터 단상에서 식전 안내를 합니다.</p>
+<div class="tablewrap"><table class="legend"><thead><tr><th scope="col">표시</th><th scope="col">뜻</th><th scope="col">읽는 법</th></tr></thead><tbody><tr><td class="lg-say">보통 글씨</td><td>진행 멘트</td><td>그대로 읽습니다</td></tr><tr><td class="lg-strong"><strong>굵은 글씨</strong></td><td>강조 멘트</td><td>힘을 주어 읽습니다</td></tr><tr><td class="lg-shout"><strong>▶ 큰 글씨</strong></td><td>구령</td><td>가장 크고 힘차게 외칩니다</td></tr><tr><td class=""><em>[기울임 글씨]</em></td><td>동작·음원·확인 사항</td><td>소리 내어 읽지 않습니다</td></tr></tbody></table></div>
+<p class="lead">모든 순서는 이어서 진행합니다. 신랑·신부, 혼주, 축가자가 자리를 옮기는 순서는 준비 상태를 확인한 뒤 말합니다. 전 과정에서 박수를 적극적으로 유도합니다. 입장과 행진 구령은 진행팀의 준비 신호를 받은 뒤 외칩니다. 입장, 부모님 인사, 축가 중에는 말을 얹지 않고 기다립니다.</p>
+<h3>예식 전 확인</h3>
+<ul class="tasks"><li><label><input type="checkbox" data-task="0"><span>음원 담당자와 아래 6곡의 재생 시점을 맞춥니다.</span></label></li><li><label><input type="checkbox" data-task="1"><span>축가자, 신부 아버님, 신랑 어머님의 대기 위치를 확인합니다.</span></label></li></ul>
+<h3>음원 순서</h3>
+<div class="tablewrap"><table class="music"><thead><tr><th scope="col">순서</th><th scope="col">곡</th><th scope="col">재생 시점</th></tr></thead><tbody><tr><td>화촉점화</td><td>Potter Waltz (해리 포터와 불의 잔)</td><td>양가 어머님 입장 시</td></tr><tr><td>신랑 입장</td><td>Come and get your love - Redbone</td><td>신랑 입장 시</td></tr><tr><td>신부 입장</td><td>How long will I love you - Ellie Goulding</td><td>신부 입장 시</td></tr><tr><td>맞절</td><td>세계의 약속 - 하울의 움직이는 성</td><td>신랑·신부 맞절 시</td></tr><tr><td>감사 인사</td><td>그대를 만난 날 (피아노 선율) - 정예경</td><td>양가 혼주·하객 인사 시</td></tr><tr><td>행진</td><td>Back on top - HONNE</td><td>신랑·신부 행진 시</td></tr></tbody></table></div>
+</section><div class="timeline" id="timeline"><div class="thread" aria-hidden="true"></div><div class="thread fill" id="fill" aria-hidden="true"></div>
+<section class="step" id="step-1" data-title="식전 안내"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-phone"/></svg></div><h2 tabindex="-1">1. 식전 안내</h2>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clock"/></svg><span>오후 1시 55분</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-dot"/></svg><span>사회자 단상에서 시작</span></li></ul>
+<p class="say">하객 여러분께 안내 말씀드립니다.</p>
+<p class="say">잠시 후 <strong>신랑 김성함 군과 신부 박선옥 양의 결혼식</strong>이 시작됩니다.</p>
+<p class="say">안으로 들어오셔서 자리에 앉아 주시고, 휴대폰은 <strong>진동으로 전환</strong>해 주시기 바랍니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>가족과 하객의 착석을 확인한 뒤 다음 순서로</span></li></ul>
+</section>
+<section class="step" id="step-2" data-title="사회자 소개 및 개식사"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-mic"/></svg></div><h2 tabindex="-1">2. 사회자 소개 및 개식사</h2>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clock"/></svg><span>오후 2시</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-song"/></svg><span>개식 조명이 모이고 음원이 끝나면 시작</span></li></ul>
+<p class="say">하객 여러분, 안녕하십니까?</p>
+<p class="say">오늘 사회를 맡은 김성후입니다.</p>
+<p class="say">귀한 걸음 해주신 하객 여러분께 양가를 대신해 깊이 감사드립니다.</p>
+<p class="say">오늘 예식은 주례 없이, 신랑과 신부가 여러분 앞에서 직접 사랑을 약속하는 자리입니다.</p>
+<p class="say">하객 여러분께서 이 약속의 <strong>증인</strong>이 되어 주시기 바랍니다.</p>
+<p class="say">지금부터 신랑 김성함 군과 신부 박선옥 양의 <strong>결혼식을 시작하겠습니다!</strong></p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li></ul>
+</section>
+<section class="step" id="step-3" data-title="화촉점화"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-candle"/></svg></div><h2 tabindex="-1">3. 화촉점화</h2>
+<p class="say">먼저 양가 어머님께서 두 사람의 앞날을 밝힐 축복의 촛불을 켜 주시겠습니다.</p>
+<p class="say"><strong>뜨거운 박수</strong>로 맞아 주시기 바랍니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-song"/></svg><span>구령과 함께 음원 시작: Potter Waltz</span></li></ul>
+<h3 class="shout"><svg class="ic " aria-hidden="true"><use href="#i-mega"/></svg><span>▶ 양가 어머님 입장!!</span></h3>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>입장 완료 확인</span></li></ul>
+<p class="say">먼저 신랑 어머님께서 화촉을 밝혀 주시겠습니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>신랑 어머님 점화 완료 확인</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li></ul>
+<p class="say">이어서 신부 어머님께서 화촉을 밝혀 주시겠습니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>신부 어머님 점화 완료 확인</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li></ul>
+<p class="say">양가 어머님께서는 단상 앞에서 서로 마주 봐 주시기 바랍니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>두 분이 마주 보신 것 확인</span></li></ul>
+<h3 class="shout"><svg class="ic " aria-hidden="true"><use href="#i-mega"/></svg><span>▶ 양가 어머님 맞절!!</span></h3>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li></ul>
+<p class="say">이번에는 하객 여러분께 인사드리겠습니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-face"/></svg><span>하객을 향해 서신 것 확인</span></li></ul>
+<h3 class="shout"><svg class="ic " aria-hidden="true"><use href="#i-mega"/></svg><span>▶ 양가 어머님, 하객 여러분께 인사!!</span></h3>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-dot"/></svg><span>양가 어머님이 혼주석에 착석하시는 동안</span></li></ul>
+<p class="say">양가 어머님께서 두 사람의 첫 출발길을 환하게 밝혀 주셨습니다.</p>
+</section>
+<section class="step" id="step-4" data-title="신랑 입장"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-groom"/></svg></div><h2 tabindex="-1">4. 신랑 입장</h2>
+<p class="say">이제 오늘의 주인공들을 모시겠습니다.</p>
+<p class="say">먼저 <strong>신랑 김성함 군</strong>입니다.</p>
+<p class="say">밤새워 버그를 잡는 개발자, <strong>잃어버린 머리숱까지 되찾아 온 집념의 사나이</strong>입니다.</p>
+<p class="say"><strong>큰 박수</strong>로 맞아 주시기 바랍니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>버진로드 준비 확인</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-song"/></svg><span>구령과 함께 음원 시작: Come and get your love</span></li></ul>
+<h3 class="shout"><svg class="ic " aria-hidden="true"><use href="#i-mega"/></svg><span>▶ 신랑 입장!!!</span></h3>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-wait"/></svg><span>신랑이 단상 앞에 설 때까지 대기</span></li></ul>
+</section>
+<section class="step" id="step-5" data-title="신부 입장"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-bride"/></svg></div><h2 tabindex="-1">5. 신부 입장</h2>
+<p class="say">다음은 오늘 가장 눈부신 <strong>신부 박선옥 양</strong>입니다.</p>
+<p class="say">신랑이 평생 갚아도 모자랄 만큼 <strong>마음씨 곱고 원래부터 예쁜 신부</strong>입니다.</p>
+<p class="say"><strong>더 큰 환호와 박수</strong>로 맞아 주시기 바랍니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>버진로드 준비 확인</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-song"/></svg><span>구령과 함께 음원 시작: How long will I love you</span></li></ul>
+<h3 class="shout"><svg class="ic " aria-hidden="true"><use href="#i-mega"/></svg><span>▶ 신부 입장!!!</span></h3>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>가장 큰 환호와 박수 유도</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-wait"/></svg><span>신랑·신부가 단상 앞에 설 때까지 대기</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-dot"/></svg><span>아버님과 함께 입장했다면 아버님이 혼주석에 앉으신 뒤 진행</span></li></ul>
+<p class="say">두 주인공이 하객 여러분 앞에 섰습니다.</p>
+</section>
+<section class="step" id="step-6" data-title="신랑·신부 맞절"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-bow"/></svg></div><h2 tabindex="-1">6. 신랑·신부 맞절</h2>
+<p class="say">신랑 신부는 서로 마주 봐 주시기 바랍니다.</p>
+<p class="say">서로 사랑하고 아끼겠다는 마음을 담아 맞절을 올리겠습니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>두 사람이 마주 본 것을 반드시 확인</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-song"/></svg><span>구령과 함께 음원 시작: 세계의 약속</span></li></ul>
+<h3 class="shout"><svg class="ic " aria-hidden="true"><use href="#i-mega"/></svg><span>▶ 신랑 신부 맞절!!</span></h3>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li></ul>
+</section>
+<section class="step" id="step-7" data-title="혼인서약"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-rings"/></svg></div><h2 tabindex="-1">7. 혼인서약</h2>
+<p class="say">다음은 혼인서약입니다.</p>
+<p class="say">이 서약의 <strong>증인</strong>은 하객 여러분입니다.</p>
+<p class="say">제가 <strong>"증인 여러분, 들으셨습니까?"</strong> 하고 여쭈면 크게 <strong>"네!"</strong> 라고 답해 주십시오.</p>
+<p class="say">한번 연습해 보겠습니다. <strong>증인 여러분, 들으셨습니까?</strong></p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-reply"/></svg><span>하객 대답: "네!" 소리가 작으면 한 번 더 유도</span></li></ul>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-face"/></svg><span>신랑을 향해</span></li></ul>
+<p class="say"><strong>신랑 김성함 군!</strong> 집안의 큰 결정은 함께 내리되, <strong>야식 메뉴만큼은 신부에게 맡기겠습니까?</strong></p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-reply"/></svg><span>신랑 대답: "네!"</span></li></ul>
+<p class="say"><strong>증인 여러분, 들으셨습니까?</strong></p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-reply"/></svg><span>하객 대답: "네!"</span></li></ul>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-face"/></svg><span>신부를 향해</span></li></ul>
+<p class="say"><strong>신부 박선옥 양!</strong> 신랑의 통금은 신부가 정하되, <strong>회식 날만큼은 딱 30분 봐주겠습니까?</strong></p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-reply"/></svg><span>신부 대답: "네!"</span></li></ul>
+<p class="say"><strong>증인 여러분, 들으셨습니까?</strong></p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-reply"/></svg><span>하객 대답: "네!"</span></li></ul>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-face"/></svg><span>두 사람을 향해</span></li></ul>
+<p class="say"><strong>두 사람!</strong> 다투는 날에도 잠들기 전에 화해하고, <strong>평생 서로의 가장 든든한 편이 되겠습니까?</strong></p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-reply"/></svg><span>두 사람 함께 대답: "네!!"</span></li></ul>
+<p class="say"><strong>증인 여러분, 들으셨습니까?</strong></p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-reply"/></svg><span>하객 대답: "네!"</span></li></ul>
+<p class="say">두 사람이 오늘 약속을 잊으면, 증인 여러분께서 꼭 일러 주시기 바랍니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-eye"/></svg><span>서약서 표기: 2026년 11월 8일, 신랑 김성함 / 신부 박선옥. 소리 내어 읽지 않음</span></li></ul>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-pause"/></svg><span>웃음이 잦아들 때까지 2~3초 여유</span></li></ul>
+<p class="say">이 약속을 지켜 갈 두 사람에게 <strong>큰 박수</strong>를 부탁드립니다!</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li></ul>
+</section>
+<section class="step" id="step-8" data-title="성혼선언"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-scroll"/></svg></div><h2 tabindex="-1">8. 성혼선언</h2>
+<p class="say">이제 두 사람이 부부가 되었음을 여러분 앞에 선언하겠습니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-scroll"/></svg><span>성혼선언문 낭독 시작</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-dot"/></svg><span>엄숙하게</span></li></ul>
+<p class="say">오늘 신랑 김성함 군과 신부 박선옥 양은 부모의 정성과 가르침을 받고 훌륭하게 자라 지금 이 자리에 서게 되었습니다.</p>
+<p class="say">이제 신랑 김성함 군과 신부 박선옥 양은 그 일가 친척과 친지를 모신 자리에서 지금과 같이 일생 동안 고락을 함께할 부부가 되기를 굳게 맹세하였습니다.</p>
+<p class="say">이에 이 두 사람이 <strong>성스러운 부부가 되었음을 엄숙하게 선언합니다.</strong></p>
+<p class="say">2026년 11월 8일</p>
+<p class="say">사회자 김성후</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-scroll"/></svg><span>성혼선언문 낭독 끝</span></li></ul>
+<p class="say">정식으로 부부가 된 신랑과 신부에게 <strong>큰 박수</strong>를 부탁드립니다!</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li></ul>
+</section>
+<section class="step" id="step-9" data-title="신부 아버님 덕담"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-talk"/></svg></div><h2 tabindex="-1">9. 신부 아버님 덕담</h2>
+<p class="say">이어서 신부 아버님께서 두 사람에게 덕담을 전해 주시겠습니다.</p>
+<p class="say"><strong>큰 박수</strong>로 모시겠습니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-wait"/></svg><span>아버님이 단상에 서실 때까지 대기</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-scroll"/></svg><span>아래 원고는 아버님이 직접 낭독하며</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-eye"/></svg><span>사회자는 눈으로만 따라갑니다</span></li></ul>
+<details class="script" open><summary><svg class="ic " aria-hidden="true"><use href="#i-talk"/></svg><span>신부 아버님 낭독 원고 (사회자는 읽지 않음)</span></summary><div><p>안녕하십니까, 신부 박선옥의 아버지 박영곤입니다. 바쁘신 주말에 귀한 걸음 해주신 양가 친지분들과 하객 여러분께 깊이 감사드립니다.</p><p>저는 1남 2녀를 두었는데, 그중 장녀 선옥이만 통금이 있었습니다. 장녀라서 엄하게 키웠다고 말씀드리고 싶지만, 사실은 제일 예뻐서 그랬습니다. 다른 두 아이는 오늘 이 말을 못 들은 걸로 해 주기 바랍니다.</p><p>셋 중에 가장 늦은 혼인이라, 왜 이제야 보내느냐고 묻는 분들이 계십니다. 자백하겠습니다. 범인은 접니다. 저녁마다 시계만 보는 아버지가 집에 있는데, 어느 남자가 마음 놓고 데이트를 했겠습니까. 늦은 게 아닙니다. 제일 아끼는 딸이라 제일 늦게 내놓는 겁니다.</p><p>마음씨 곱고 착한 딸이 마흔 해 넘게 제 곁에 있어 주었습니다. 솔직히 저는 조금 더 데리고 있어도 괜찮았습니다. 그런데 김성함 군이 나타났습니다. 사위가 바로 앞에 서 있으니 조심스럽습니다만, 제 눈에는 아직도 선옥이가 아깝습니다. 사돈 어르신, 너그러이 들어 주십시오. 세상 어느 남자를 데려왔어도 아까웠을 겁니다. 그래도 이렇게 반듯한 사위를 보내주신 사돈 어르신께 진심으로 감사드립니다.</p><p>든든한 사위 성함아. 오늘부터 선옥이 통금 관리는 자네에게 넘기네. 아마 앞으로 통금은 자네한테 생길 걸세. 살다 보면 비바람 치는 날도 있을 거야. 그럴 때마다 오늘 한 약속을 기억하고, 서로의 가장 든든한 버팀목이 되어 주게.</p><p>사랑하는 딸 선옥아. 오늘부로 통금을 해제한다. 이제는 아버지 눈치 보지 말고 마음껏 행복하게 살아라. 그래도 친정집 문은 네가 몇 시에 오든 늘 열려 있다.</p><p>두 사람의 앞날에 늘 축복이 가득하길 바라며, 함께해 주신 모든 분께 다시 한번 감사드립니다. 감사합니다.</p></div></details>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-pause"/></svg><span>덕담이 끝나면 2~3초 여유</span></li></ul>
+<p class="say">따뜻한 말씀을 해주신 신부 아버님께 <strong>뜨거운 감사의 박수</strong>를 부탁드립니다!</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li></ul>
+</section>
+<section class="step" id="step-10" data-title="신랑 어머님 덕담"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-talkh"/></svg></div><h2 tabindex="-1">10. 신랑 어머님 덕담</h2>
+<p class="say">이어서 신랑 어머님께서 두 사람에게 덕담을 전해 주시겠습니다.</p>
+<p class="say"><strong>큰 박수</strong>로 모시겠습니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-wait"/></svg><span>어머님이 단상에 서실 때까지 대기</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-scroll"/></svg><span>아래 원고는 어머님이 직접 낭독하며</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-eye"/></svg><span>사회자는 눈으로만 따라갑니다</span></li></ul>
+<details class="script" open><summary><svg class="ic " aria-hidden="true"><use href="#i-talk"/></svg><span>신랑 어머님 낭독 원고 (사회자는 읽지 않음)</span></summary><div><p>안녕하십니까, 신랑 김성함의 어머니 현정자입니다. 귀한 걸음 해주신 하객 여러분께 깊이 감사드립니다.</p><p>방금 사돈 어르신께서 선옥이가 아깝다고 하셨는데요, 저도 한 말씀 드리겠습니다. 제 눈에는 우리 아들도 참 아깝습니다. 그런데 선옥이를 보고 있으면, 아무래도 우리 아들이 남는 장사를 한 것 같습니다. 사돈 어르신, 귀한 따님을 보내 주셔서 감사합니다.</p><p>우리 복덩이 며느리 선옥아, 와 주어서 고맙다. 앞으로 성함이가 속을 썩이면 친정 아버지께 이르기 전에 나한테 먼저 말해라. 내가 더 혼내 주마.</p><p>성함아, 일찍 철이 들어 고생 많았다. 이제는 네 행복만 생각해도 된다. 사돈댁 통금이 보통 엄한 게 아닌 것 같으니 통금은 꼭 지키고, 두 사람 모두 건강 잘 챙겨서 서로 아끼며 행복하게 살아라.</p><p>오늘 함께해 주신 모든 분께 다시 한번 감사드립니다. 감사합니다.</p></div></details>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-pause"/></svg><span>덕담이 끝나면 2~3초 여유</span></li></ul>
+<p class="say">따뜻한 말씀을 해주신 신랑 어머님께 <strong>뜨거운 감사의 박수</strong>를 부탁드립니다!</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li></ul>
+</section>
+<section class="step" id="step-11" data-title="축가"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-song"/></svg></div><h2 tabindex="-1">11. 축가</h2>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>축가자 준비 확인</span></li></ul>
+<p class="say">다음은 두 사람을 위한 축가입니다.</p>
+<p class="say"><strong>뜨거운 호응과 큰 박수</strong> 부탁드립니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-wait"/></svg><span>축가가 끝날 때까지 대기</span></li></ul>
+<p class="say">감동적인 축가 잘 들었습니다.</p>
+<p class="say">축가자분께 <strong>다시 한번 큰 박수</strong> 부탁드립니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li></ul>
+</section>
+<section class="step" id="step-12" data-title="양가 부모님께 인사"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-deepbow"/></svg></div><h2 tabindex="-1">12. 양가 부모님께 인사</h2>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-song"/></svg><span>음원 시작: 그대를 만난 날</span></li></ul>
+<p class="say">이제 두 사람을 정성껏 길러 주신 부모님과 하객 여러분께 <strong>감사의 인사</strong>를 올리겠습니다.</p>
+<p class="say">먼저 신부 부모님께 인사드립니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>신랑·신부가 신부 측 혼주 앞에 준비된 것 확인</span></li></ul>
+<h3 class="shout"><svg class="ic " aria-hidden="true"><use href="#i-mega"/></svg><span>▶ 신랑, 신부 인사!</span></h3>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-wait"/></svg><span>포옹이 있으면 끝날 때까지 대기</span></li></ul>
+<p class="say">다음은 신랑 어머님께 인사드립니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>신랑·신부가 신랑 측 혼주 앞에 준비된 것 확인</span></li></ul>
+<h3 class="shout"><svg class="ic " aria-hidden="true"><use href="#i-mega"/></svg><span>▶ 신랑, 신부 인사!</span></h3>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-wait"/></svg><span>포옹이 있으면 끝날 때까지 대기</span></li></ul>
+</section>
+<section class="step" id="step-13" data-title="하객 여러분께 인사"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-guests"/></svg></div><h2 tabindex="-1">13. 하객 여러분께 인사</h2>
+<p class="say">오늘 귀한 걸음으로 두 사람을 축복해 주신 하객 여러분, 진심으로 감사합니다.</p>
+<p class="say">행복한 가정을 이루겠다는 다짐을 담아 <strong>감사의 인사</strong>를 올리겠습니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>신랑·신부가 하객을 바라보고 준비된 것 확인</span></li></ul>
+<h3 class="shout"><svg class="ic " aria-hidden="true"><use href="#i-mega"/></svg><span>▶ 신랑, 신부 하객 여러분께 인사!</span></h3>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수 유도</span></li></ul>
+</section>
+<section class="step" id="step-14" data-title="신랑·신부 행진"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-march"/></svg></div><h2 tabindex="-1">14. 신랑·신부 행진</h2>
+<p class="say">이제 오늘의 마지막 순서, 신랑·신부 행진입니다.</p>
+<p class="say">하객 여러분께서는 <strong>모두 자리에서 일어나</strong> 주시기 바랍니다.</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span>하객 기립과 신랑·신부 행진 준비 확인</span></li></ul>
+<p class="say">새로운 시작을 향해 첫걸음을 내딛는 두 사람에게 <strong>가장 뜨거운 박수와 함성</strong>을 부탁드립니다!</p>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-song"/></svg><span>구령과 함께 음원 시작: Back on top</span></li></ul>
+<h3 class="shout"><svg class="ic " aria-hidden="true"><use href="#i-mega"/></svg><span>▶ 신랑 신부 행진!!</span></h3>
+<ul class="cue"><li><svg class="ic " aria-hidden="true"><use href="#i-clap"/></svg><span>박수와 함성 유도</span></li><li><svg class="ic " aria-hidden="true"><use href="#i-wait"/></svg><span>행진이 끝날 때까지 대기</span></li></ul>
+</section>
+<section class="step" id="step-15" data-title="폐식사 및 피로연 안내"><div class="marker"><svg class="ic " aria-hidden="true"><use href="#i-dine"/></svg></div><h2 tabindex="-1">15. 폐식사 및 피로연 안내</h2>
+<p class="say">이상으로 신랑 김성함 군과 신부 박선옥 양의 <strong>결혼식을 모두 마치겠습니다. 대단히 감사합니다.</strong></p>
+<p class="say">이어서 기념 촬영이 있겠습니다. 가족과 친지, 친구분들께서는 <strong>잠시 자리에서 기다려</strong> 주시기 바랍니다.</p>
+<p class="say">피로연은 <strong>8층 연회장</strong>에 마련되어 있습니다.</p>
+<p class="say">귀중품 잘 챙기시고 <strong>8층 연회장</strong>으로 이동해 주시기 바랍니다. 감사합니다.</p>
+</section>
+</div>
+</main>
+</div>
+<nav class="bar" aria-label="순서 이동">
+<button class="nav" id="prev" type="button" aria-label="이전 순서"><svg class="ic" aria-hidden="true"><use href="#i-prev"/></svg></button>
+<button id="open" type="button" aria-haspopup="true" aria-expanded="false">순서 목록</button>
+<button class="nav" id="next" type="button" aria-label="다음 순서"><svg class="ic" aria-hidden="true"><use href="#i-next"/></svg></button>
+</nav>
+<script>
+(function(){
+var $=function(s){return document.querySelector(s)},root=document.documentElement;
+var store={get:function(k,d){try{var v=localStorage.getItem(k);return v===null?d:v}catch(e){return d}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+var reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+/* 어두운 화면 */
+var theme=store.get('wedding-theme',matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+function applyTheme(){root.dataset.theme=theme;$('#theme').setAttribute('aria-pressed',theme==='dark');$('meta[name=theme-color]').content=theme==='dark'?'#0F1A3A':'#FAFBF9'}
+$('#theme').onclick=function(){theme=theme==='dark'?'light':'dark';store.set('wedding-theme',theme);applyTheme()};applyTheme();
+/* 글자 크기 */
+var scale=parseFloat(store.get('wedding-scale','1'))||1;
+function applyScale(){root.style.setProperty('--scale',scale);$('#smaller').disabled=scale<=.8;$('#bigger').disabled=scale>=1.6;store.set('wedding-scale',scale);update()}
+$('#smaller').onclick=function(){scale=Math.max(.8,Math.round((scale-.1)*10)/10);applyScale()};
+$('#bigger').onclick=function(){scale=Math.min(1.6,Math.round((scale+.1)*10)/10);applyScale()};
+/* 현재 순서와 실 */
+var steps=[].slice.call(document.querySelectorAll('.step')),links=[].slice.call(document.querySelectorAll('#steplist a')),tl=$('#timeline'),fill=$('#fill'),cur=-2,ticking=false;
+function update(){
+ var line=innerHeight*.38,c=-1;
+ steps.forEach(function(s,i){if(s.getBoundingClientRect().top<=line)c=i});
+ if(innerHeight+scrollY>=document.documentElement.scrollHeight-4)c=steps.length-1;
+ var t=tl.getBoundingClientRect();
+ fill.style.height=Math.max(0,Math.min(line-t.top,t.height))+'px';
+ if(c!==cur){cur=c;
+  steps.forEach(function(s,i){s.classList.toggle('now',i===c);s.classList.toggle('past',i<c)});
+  links.forEach(function(a,i){if(i===c)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current')});
+  $('#open').textContent=c<0?'순서 목록':(c+1)+' / 15  '+steps[c].dataset.title;
+  $('#prev').disabled=c<0;$('#next').disabled=c>=steps.length-1;
+ }
+}
+function onScroll(){if(!ticking){ticking=true;requestAnimationFrame(function(){ticking=false;update()})}}
+addEventListener('scroll',onScroll,{passive:true});addEventListener('resize',onScroll);
+function go(i){
+ if(i<0){scrollTo({top:0,behavior:reduced?'auto':'smooth'});return}
+ var s=steps[i];s.scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'});s.querySelector('h2').focus({preventScroll:true});
+}
+$('#prev').onclick=function(){go(cur-1)};$('#next').onclick=function(){go(cur+1)};
+addEventListener('keydown',function(e){
+ if(e.key==='Escape')closePanel();
+ if(e.altKey||e.ctrlKey||e.metaKey||/INPUT|SELECT|TEXTAREA/.test(e.target.tagName))return;
+ if(e.key==='ArrowRight'){e.preventDefault();go(Math.min(cur+1,steps.length-1))}
+ if(e.key==='ArrowLeft'){e.preventDefault();go(cur-1)}
+});
+/* 순서 목록 */
+var panel=$('#panel'),scrim=$('#scrim'),wide=matchMedia('(min-width:1080px)');
+function openPanel(){panel.hidden=false;scrim.hidden=false;$('#open').setAttribute('aria-expanded','true');var a=links[Math.max(cur,0)];a.focus();a.scrollIntoView({block:'center'})}
+function closePanel(){if(wide.matches)return;var was=!panel.hidden;panel.hidden=true;scrim.hidden=true;$('#open').setAttribute('aria-expanded','false');if(was)$('#open').focus()}
+$('#open').onclick=function(){panel.hidden?openPanel():closePanel()};$('#close').onclick=closePanel;scrim.onclick=closePanel;
+links.forEach(function(a,i){a.onclick=function(e){e.preventDefault();closePanel();go(i)}});
+/* 화면 켜 두기 */
+var wb=$('#wake'),note=$('#note'),lock=null,want=false;
+function setWake(on){wb.setAttribute('aria-pressed',on)}
+async function acquire(){try{lock=await navigator.wakeLock.request('screen');setWake(true);note.textContent='화면을 켜 둡니다.';lock.addEventListener('release',function(){lock=null;if(!want)setWake(false)})}catch(e){want=false;setWake(false);note.textContent='이 브라우저에서는 화면을 켜 둘 수 없습니다. 기기 설정에서 화면 자동 꺼짐을 늘려 주세요.'}}
+if(!('wakeLock' in navigator)){wb.hidden=true}else{
+ wb.onclick=function(){if(want){want=false;if(lock)lock.release();setWake(false);note.textContent=''}else{want=true;acquire()}};
+ document.addEventListener('visibilitychange',function(){if(want&&document.visibilityState==='visible'&&!lock)acquire()});
+}
+/* 인쇄 */
+$('#print').onclick=function(){print()};
+addEventListener('beforeprint',function(){document.querySelectorAll('details').forEach(function(d){d.open=true})});
+/* 예식 전 확인 */
+document.querySelectorAll('[data-task]').forEach(function(c){var k='wedding-task-'+c.dataset.task;c.checked=store.get(k,'0')==='1';c.onchange=function(){store.set(k,c.checked?'1':'0')}});
+applyScale();update();
+})();
+</script>
+</body>
+</html>
